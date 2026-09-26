@@ -105,7 +105,7 @@ $$\rho_{\text{LS}} = \|\tilde{A} x_{\text{LS}} - \tilde{y}\|_2, \qquad \sigma_0 
 ## Шаг 6. Выбор параметра регуляризации по принципу невязки
 
 Требуется найти $\alpha^* > 0$ такое, что
-$$\rho(alpha^*) = \tau \, \varepsilon,$$
+$$\rho(\alpha^*) = \tau \, \varepsilon,$$
 где $\rho(\alpha) = \|\tilde{A} x_\alpha - \tilde{y}\|_2$, $\tau > 1$ — параметр (обычно $\tau = 1.1$).
 
 Определяется функция
