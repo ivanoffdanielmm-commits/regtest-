@@ -32,7 +32,8 @@ $$\rho(\alpha^*) = \tau \varepsilon, \qquad \rho(\alpha) = \|\tilde{A} x_{\alpha
 Функция $d(\alpha) = \rho(\alpha) - \tau \varepsilon$ монотонна; корень ищется бисекцией.
 
 **6. Регуляризованное решение.**  
-$$\hat{x} = x_{\alpha^*} = \sum_{j=1}^n \frac{\sigma_j}{\sigma_j^2 + \alpha^*} \, \langle \tilde{y}, u_j \rangle \, v_j.$$
+$$\hat{x} = x_{\alpha^{\ast}} = \sum_{j=1}^n \frac{\sigma_j}{\sigma_j^2 + \alpha^{\ast}} \, \langle \tilde{y}, u_j \rangle \, v_j.$$
+
 
 **7. Уравненные значения.**  
 $$h_i = x_{0,i} + \hat{x}_i, \qquad i = 1, \dots, n.$$
